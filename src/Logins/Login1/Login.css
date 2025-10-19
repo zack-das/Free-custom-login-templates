@@ -40,6 +40,19 @@ input{
     border: none;
     background: #87bad7;
     border-radius: 5px;
+    font-size: 16px;
+}
+input:focus{
+    background-color: #87bad7;
+    outline: none;
+}
+.toggle-password{
+    position: relative;
+    top: -40px;
+    left: 270px;
+    width: 28px;
+    background-color: transparent;
+
 }
 .altcreateAcc{
     width: 300px;
@@ -55,6 +68,19 @@ button{
     border-radius: 6px;
     border: none;
     background: #2020ff;
+
+}
+.altcreateAcc button:hover{
+    background-color: #2e61f1;
+    cursor: pointer;
+    box-shadow: 0 0 0 #0056b3;
+}
+.altcreateAcc button:active {
+    transform: translateY(4px) scale(0.98);
+    box-shadow:
+        inset 6px 6px 12px #2e2e32,
+        inset -6px -6px 12px #202020;
+    background: linear-gradient(145deg, #2e61f1, #2e61f1);
 
 }
 .altcreateAcc p{
@@ -75,4 +101,3 @@ label{
     color:#2020ff;
     font-size: 18px;
 }
-
