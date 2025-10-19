@@ -8,7 +8,7 @@ body{
     height: 100vh;
     margin: 0;
     padding: 20px;
-    background: url("src/assets/back.png");
+    background-image: url("back.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
